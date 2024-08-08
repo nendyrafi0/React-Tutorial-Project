@@ -1,11 +1,15 @@
-import './App.css';
+// import { useState, useEffect } from 'react';
+// import './App.css';
+import SideBar from './components/sideBar'
+import Background from './components/background'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>App</h1>
+    <div className="flex">
+      <SideBar />
+      <Background />
     </div>
-  );
+    )
 }
 
 export default App;
